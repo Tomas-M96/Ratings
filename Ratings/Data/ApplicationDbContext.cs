@@ -12,5 +12,7 @@ namespace Ratings.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Movies> Movies { get; set; }
+        public DbSet<Games> Games { get; set; }
+
     }
 }
